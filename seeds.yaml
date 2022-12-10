@@ -1,0 +1,532 @@
+# - model: users.models.UserModel
+#   id: 1
+#   fields:
+#     first_name: Hossam
+#     last_name: Hassan
+#     username: hossam2020
+#     email: hossam@gmail.com
+#     hashed_password: $2b$12$I0TLrFYjkSTcXlutReGL1.0rQS2BywxpDSgXpZbzlmTtFj9aXMJVK
+#     role_id: 1
+
+# - model: users.models.UserModel
+#   id: 2
+#   fields:
+#     first_name: Eslam
+#     last_name: mohamed
+#     username: eslam2020
+#     email: eslam@gmail.com
+#     hashed_password: $2b$12$I0TLrFYjkSTcXlutReGL1.0rQS2BywxpDSgXpZbzlmTtFj9aXMJVK
+#     role_id: 2
+
+# - model: users.models.UserModel
+#   id: 3
+#   fields:
+#     first_name: Ahmed
+#     last_name: Hassan
+#     username: ahmed
+#     email: ahmed@gmail.com
+#     hashed_password: $2b$12$I0TLrFYjkSTcXlutReGL1.0rQS2BywxpDSgXpZbzlmTtFj9aXMJVK
+
+
+# - model: roles.models.RoleModel
+#   id: 1
+#   fields:
+#     name: admin
+#     label: Admin
+
+# - model: roles.models.RoleModel
+#   id: 2
+#   fields:
+#     name: user
+#     label: User
+
+
+# - model: permissions.models.PermissionModel
+#   id: 1 
+#   fields:
+#     title: read__user
+#     label: read__user
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 2
+#   fields:
+#     title: create__user
+#     label: create__user
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 3 
+#   fields:
+#     title: delete__user
+#     label: delete__user
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 4
+#   fields:
+#     title: show__user
+#     label: show__user
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 5
+#   fields:
+#     title: update__user
+#     label: update__user
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 6
+#   fields:
+#     title: delete__user
+#     label: delete__user
+
+
+
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 7
+#   fields:
+#     title: read__permission
+#     label: read__permission
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 8
+#   fields:
+#     title: create__permission
+#     label: create__permission
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 9
+#   fields:
+#     title: delete__permission
+#     label: delete__permission
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 10 
+#   fields:
+#     title: show__permission
+#     label: show__permission
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 11 
+#   fields:
+#     title: update__permission
+#     label: update__permission
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 12
+#   fields:
+#     title: delete__permission
+#     label: delete__permission
+
+
+
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 13
+#   fields:
+#     title: read__role_user
+#     label: read__role_user
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 14 
+#   fields:
+#     title: create__role_user
+#     label: create__role_user
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 15 
+#   fields:
+#     title: delete__role_user
+#     label: delete__role_user
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 16 
+#   fields:
+#     title: show__role_user
+#     label: show__role_user
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 17 
+#   fields:
+#     title: update__role_user
+#     label: update__role_user
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 18 
+#   fields:
+#     title: delete__role_user
+#     label: delete__role_user
+
+
+
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 19 
+#   fields:
+#     title: read__role
+#     label: read__role
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 20 
+#   fields:
+#     title: create__role
+#     label: create__role
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 21 
+#   fields:
+#     title: delete__role
+#     label: delete__role
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 22 
+#   fields:
+#     title: show__role
+#     label: show__role
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 23 
+#   fields:
+#     title: update__role
+#     label: update__role
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 24 
+#   fields:
+#     title: delete__role
+#     label: delete__role
+
+
+
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 25 
+#   fields:
+#     title: read__permission_role
+#     label: read__permission_role
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 26 
+#   fields:
+#     title: create__permission_role
+#     label: create__permission_role
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 27 
+#   fields:
+#     title: delete__permission_role
+#     label: delete__permission_role
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 28 
+#   fields:
+#     title: show__permission_role
+#     label: show__permission_role
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 29 
+#   fields:
+#     title: update__permission_role
+#     label: update__permission_role
+
+
+
+# - model: permissions.models.PermissionModel
+#   id: 30 
+#   fields:
+#     title: delete__permission_role
+#     label: delete__permission_role
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 1 
+#   fields:
+#     permission_id: 1
+#     role_id: 1
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 2 
+#   fields:
+#     permission_id: 2
+#     role_id: 1
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 3
+#   fields:
+#     permission_id: 3
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 4 
+#   fields:
+#     permission_id: 4
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 5 
+#   fields:
+#     permission_id: 5
+#     role_id: 1
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 6 
+#   fields:
+#     permission_id: 6
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 7 
+#   fields:
+#     permission_id: 7
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 8 
+#   fields:
+#     permission_id: 8
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 9 
+#   fields:
+#     permission_id: 9
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 10 
+#   fields:
+#     permission_id: 10
+#     role_id: 1
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 11 
+#   fields:
+#     permission_id: 11
+#     role_id: 1
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 12 
+#   fields:
+#     permission_id: 12
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 13 
+#   fields:
+#     permission_id: 13
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 14 
+#   fields:
+#     permission_id: 14
+#     role_id: 1
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 15 
+#   fields:
+#     permission_id: 15
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 16 
+#   fields:
+#     permission_id: 16
+#     role_id: 1
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 17 
+#   fields:
+#     permission_id: 17
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 18 
+#   fields:
+#     permission_id: 18
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 19 
+#   fields:
+#     permission_id: 19
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 20 
+#   fields:
+#     permission_id: 20
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 21 
+#   fields:
+#     permission_id: 21
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 22 
+#   fields:
+#     permission_id: 22
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 23 
+#   fields:
+#     permission_id: 23
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 24 
+#   fields:
+#     permission_id: 24
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 25 
+#   fields:
+#     permission_id: 25
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 26 
+#   fields:
+#     permission_id: 26
+#     role_id: 1
+
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 27 
+#   fields:
+#     permission_id: 27
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 28 
+#   fields:
+#     permission_id: 28
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 29 
+#   fields:
+#     permission_id: 29
+#     role_id: 1
+
+
+
+# - model: permission_roles.models.Permission_roleModel
+#   id: 30 
+#   fields:
+#     permission_id: 30
+#     role_id: 1
+
+
+- model: role_users.models.Role_userModel
+  id: 1 
+  fields:
+    user_id: 1
+    role_id: 1

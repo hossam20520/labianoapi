@@ -1,0 +1,38 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"fastapi"},
+{"type":"table","name":"permissions","database":"fastapi","data":
+[
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"1","title":"read__users","label":"read__user"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"2","title":"create__user","label":"create__user"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"3","title":"delete__users","label":"delete__user"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"4","title":"show__user","label":"show__user"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"5","title":"update__user","label":"update__user"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"6","title":"delete__user","label":"delete__user"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"7","title":"read__permissions","label":"read__permission"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"8","title":"create__permission","label":"create__permission"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"9","title":"delete__permissions","label":"delete__permission"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"10","title":"show__permission","label":"show__permission"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"11","title":"update__permission","label":"update__permission"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"12","title":"delete__permission","label":"delete__permission"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"13","title":"read__role_users","label":"read__role_user"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"14","title":"create__role_user","label":"create__role_user"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"15","title":"delete__role_users","label":"delete__role_user"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"16","title":"show__role_user","label":"show__role_user"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"17","title":"update__role_user","label":"update__role_user"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"18","title":"delete__role_user","label":"delete__role_user"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"19","title":"read__roles","label":"read__role"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"20","title":"create__role","label":"create__role"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"21","title":"delete__roles","label":"delete__role"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"22","title":"show__role","label":"show__role"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"23","title":"update__role","label":"update__role"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"24","title":"delete__role","label":"delete__role"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"25","title":"read__permission_roles","label":"read__permission_role"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"26","title":"create__permission_role","label":"create__permission_role"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"27","title":"delete__permission_roles","label":"delete__permission_role"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"28","title":"show__permission_role","label":"show__permission_role"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"29","title":"update__permission_role","label":"update__permission_role"},
+    {"created_at":"2022-12-10 10:41:22","updated_at":"2022-12-10 10:41:22","id":"30","title":"delete__permission_role","label":"delete__permission_role"}
+    ]
+}
+]
