@@ -11,12 +11,18 @@ from auth.login import router as login_router
 from auth.register import router as register_router
 import time
 import os 
-
+from fastapi.middleware.cors import CORSMiddleware
 
 models.Base.metadata.create_all(bind=engine)
 # permission_model.Base.metadata.create_all(bind=engine)
 app = FastAPI()
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 app.include_router(login_router, tags=["login"], prefix="/api/v1.0/login")
 app.include_router(register_router, tags=["register"], prefix="/api/v1.0/register")
