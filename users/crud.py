@@ -58,14 +58,8 @@ def delete_user(db: Session , id:int):
 
 
 
-def create_user_seeds(db: Session):
-    users = [
-{"created_at":"2022-12-10 10:40:00","updated_at":"2022-12-10 10:47:14","id":"1","first_name":"string","last_name":"string","username":"strding","email":"stringd","hashed_password":"string","is_active":True,"role_id":"1"},
-{"created_at":"2022-12-10 10:40:00","updated_at":"2022-12-10 10:40:00","id":"2","first_name":"Eslam","last_name":"mohamed","username":"eslam2020","email":"eslam@gmail.com","hashed_password":"$2b$12$I0TLrFYjkSTcXlutReGL1.0rQS2BywxpDSgXpZbzlmTtFj9aXMJVK","is_active":True,"role_id":"2"},
-{"created_at":"2022-12-10 10:40:00","updated_at":"2022-12-10 10:40:00","id":"3","first_name":"Ahmed","last_name":"Hassan","username":"ahmed","email":"ahmed@gmail.com","hashed_password":"$2b$12$I0TLrFYjkSTcXlutReGL1.0rQS2BywxpDSgXpZbzlmTtFj9aXMJVK","is_active":True},
-{"created_at":"2022-12-10 10:44:34","updated_at":"2022-12-10 10:44:34","id":"4","first_name":"string","last_name":"string","username":"string","email":"string","hashed_password":"string","is_active":True}
-]
-    for items in users:
+def create_user_seeds(db: Session, data):
+    for items in data:
         try:
             db_user  = UserModel(**items)
             db.add(db_user)

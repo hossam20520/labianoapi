@@ -1,12 +1,6 @@
 [
-{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
-{"type":"database","name":"fastapi"},
-{"type":"table","name":"users","database":"fastapi","data":
-[
-{"created_at":"2022-12-10 10:40:00","updated_at":"2022-12-10 10:47:14","id":"1","first_name":"string","last_name":"string","username":"strding","email":"stringd","hashed_password":"string","is_active":"1","role_id":"1"},
-{"created_at":"2022-12-10 10:40:00","updated_at":"2022-12-10 10:40:00","id":"2","first_name":"Eslam","last_name":"mohamed","username":"eslam2020","email":"eslam@gmail.com","hashed_password":"$2b$12$I0TLrFYjkSTcXlutReGL1.0rQS2BywxpDSgXpZbzlmTtFj9aXMJVK","is_active":"1","role_id":"2"},
-{"created_at":"2022-12-10 10:40:00","updated_at":"2022-12-10 10:40:00","id":"3","first_name":"Ahmed","last_name":"Hassan","username":"ahmed","email":"ahmed@gmail.com","hashed_password":"$2b$12$I0TLrFYjkSTcXlutReGL1.0rQS2BywxpDSgXpZbzlmTtFj9aXMJVK","is_active":"1","role_id":null},
-{"created_at":"2022-12-10 10:44:34","updated_at":"2022-12-10 10:44:34","id":"4","first_name":"string","last_name":"string","username":"string","email":"string","hashed_password":"string","is_active":"1","role_id":null}
-]
-}
+{"created_at":"2022-12-10 10:40:00","updated_at":"2022-12-10 10:47:14","id":"1","first_name":"string","last_name":"string","username":"strding","email":"stringd","hashed_password":"$2b$12$gcvd3hqyBS873a3EnZ66COiVQ5ZR81iDBg/1qcruupx3vP51Esnqe","is_active":"1","role_id":"1"},
+{"created_at":"2022-12-10 10:40:00","updated_at":"2022-12-10 10:40:00","id":"2","first_name":"Eslam","last_name":"mohamed","username":"eslam2020","email":"eslam@gmail.com","hashed_password":"$2b$12$gcvd3hqyBS873a3EnZ66COiVQ5ZR81iDBg/1qcruupx3vP51Esnqe","is_active":"1","role_id":"2"},
+{"created_at":"2022-12-10 10:40:00","updated_at":"2022-12-10 10:40:00","id":"3","first_name":"Ahmed","last_name":"Hassan","username":"ahmed","email":"ahmed@gmail.com","hashed_password":"$2b$12$gcvd3hqyBS873a3EnZ66COiVQ5ZR81iDBg/1qcruupx3vP51Esnqe","is_active":"1","role_id":null},
+{"created_at":"2022-12-10 10:44:34","updated_at":"2022-12-10 10:44:34","id":"4","first_name":"string","last_name":"string","username":"string","email":"string","hashed_password":"$2b$12$gcvd3hqyBS873a3EnZ66COiVQ5ZR81iDBg/1qcruupx3vP51Esnqe","is_active":"1","role_id":null}
 ]

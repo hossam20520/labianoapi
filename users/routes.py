@@ -27,7 +27,10 @@ router = APIRouter()
 
 @router.get("/seeds")
 def create_user_seeds( db: Session = Depends(get_db)  ):
-    return crud.create_user_seeds(db)
+    f = open('permissions.json')
+    data = json.load(f)   
+    return crud.create_user_seeds(db, data)
+    #return crud.create_user_seeds(db)
 
 @router.delete("/seeds" )
 def delete_all_users_seed(db: Session = Depends(get_db) ):
